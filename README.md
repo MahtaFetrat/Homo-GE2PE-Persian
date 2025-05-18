@@ -46,7 +46,7 @@ For inference, use the provided `inference.ipynb` notebook or the [Colab link](h
 
 ## Dataset: HomoRich G2P Persian
 
-The models in this repository were fine-tuned on HomoRich, the first large-scale public Persian homograph dataset for grapheme-to-phoneme (G2P) tasks, resolving pronunciation/meaning ambiguities in identically spelled words. Introduced in "Fast, Not Fancy: Rethinking G2P with Rich Data and Rule-Based Models", the dataset is available [here](https://huggingface.co/datasets/MahtaFetrat/HomoRich).
+The models in this repository were fine-tuned on HomoRich, the first large-scale public Persian homograph dataset for grapheme-to-phoneme (G2P) tasks, resolving pronunciation/meaning ambiguities in identically spelled words. Introduced in "Fast, Not Fancy: Rethinking G2P with Rich Data and Rule-Based Models", the dataset is available [here](https://anonymous.4open.science/r/HomoRich-G2P-Persian/) (TODO: Update link).
 
 ---
 
@@ -69,5 +69,5 @@ Contributions and pull requests are welcome. Please open an issue to discuss the
 * [Paper PDF](#) (TODO: link to paper)
 * [Base GE2PE Paper](https://aclanthology.org/2024.findings-emnlp.196/)
 * [Base GE2PE Model](https://github.com/Sharif-SLPL/GE2PE)
-* [HomoRich Dataset](https://huggingface.co/datasets/MahtaFetrat/HomoRich-G2P-Persian)
+* [HomoRich Dataset](https://anonymous.4open.science/r/HomoRich-G2P-Persian/) (TODO: To be updated)
 * [SentenceBench Persian G2P Benchmark](https://huggingface.co/datasets/MahtaFetrat/SentenceBench)
