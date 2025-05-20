@@ -75,8 +75,6 @@ wer_metric = evaluate.load('wer')
 
 # %%
 def load_pronuncation_dictionary(path, train=True, homograph_only=False, human=False) -> Dataset:
-    # path = '/media/external_10TB/mahta_fetrat/PersianG2P_final.csv'
-
     # Read the CSV file
     df = pd.read_csv(path, index_col=[0])
 
@@ -113,11 +111,11 @@ def load_pronuncation_dictionary(path, train=True, homograph_only=False, human=F
 
 # %%
 # Load datasets (only rows with 'Homograph Grapheme')
-train_data = load_pronuncation_dictionary('PersianG2P_final.csv', train=True)
+train_data = load_pronuncation_dictionary('PersianG2P.csv', train=True)
 train_data = train_data.map(prepare_dataset)
 train_dataset = train_data
 
-dev_data = load_pronuncation_dictionary('PersianG2P_final.csv', train=False)
+dev_data = load_pronuncation_dictionary('PersianG2P.csv', train=False)
 dev_data = dev_data.map(prepare_dataset)
 dev_dataset = dev_data
 
@@ -199,13 +197,13 @@ plt.close()
 
 # %%
 # Load datasets (only rows with 'Homograph Grapheme')
-train_data = load_pronuncation_dictionary('PersianG2P_final.csv',
+train_data = load_pronuncation_dictionary('PersianG2P.csv',
                                           train=True,
                                           homograph_only=True)
 train_data = train_data.map(prepare_dataset)
 train_dataset = train_data
 
-dev_data = load_pronuncation_dictionary('PersianG2P_final.csv',
+dev_data = load_pronuncation_dictionary('PersianG2P.csv',
                                         train=False,
                                         homograph_only=True)
 dev_data = dev_data.map(prepare_dataset)
@@ -290,14 +288,14 @@ plt.close()
 
 # %%
 # Load datasets (only rows with 'Homograph Grapheme')
-train_data = load_pronuncation_dictionary('PersianG2P_final_augmented_final.csv',
+train_data = load_pronuncation_dictionary('PersianG2P_augmented.csv',
                                           train=True,
                                           homograph_only=True,
                                           human=True)
 train_data = train_data.map(prepare_dataset)
 train_dataset = train_data
 
-dev_data = load_pronuncation_dictionary('PersianG2P_final_augmented_final.csv',
+dev_data = load_pronuncation_dictionary('PersianG2P_augmented.csv',
                                         train=False,
                                         homograph_only=True,
                                         human=True)
