@@ -90,7 +90,7 @@ The models in this repository were fine-tuned on HomoRich, the first large-scale
 
 If you use this project in your work, please cite the corresponding paper:
 
-```
+```bibtex
 @misc{qharabagh2025fastfancyrethinkingg2p,
       title={Fast, Not Fancy: Rethinking G2P with Rich Data and Rule-Based Models}, 
       author={Mahta Fetrat Qharabagh and Zahra Dehghanian and Hamid R. Rabiee},
