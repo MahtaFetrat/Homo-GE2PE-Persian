@@ -54,7 +54,15 @@ The models in this repository were fine-tuned on HomoRich, the first large-scale
 
 If you use this project in your work, please cite the corresponding paper:
 
-> TODO
+> @misc{qharabagh2025fastfancyrethinkingg2p,
+      title={Fast, Not Fancy: Rethinking G2P with Rich Data and Rule-Based Models}, 
+      author={Mahta Fetrat Qharabagh and Zahra Dehghanian and Hamid R. Rabiee},
+      year={2025},
+      eprint={2505.12973},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2505.12973}, 
+}
 
 ---
 
@@ -66,8 +74,8 @@ Contributions and pull requests are welcome. Please open an issue to discuss the
 
 ### Additional Links
 
-* [Paper PDF](#) (TODO: link to paper)
+* [Paper PDF]([#](https://arxiv.org/abs/2505.12973))
 * [Base GE2PE Paper](https://aclanthology.org/2024.findings-emnlp.196/)
 * [Base GE2PE Model](https://github.com/Sharif-SLPL/GE2PE)
-* [HomoRich Dataset](https://anonymous.4open.science/r/HomoRich-G2P-Persian/) (TODO: To be updated)
+* [HomoRich Dataset](https://huggingface.co/datasets/MahtaFetrat/HomoRich-G2P-Persian)
 * [SentenceBench Persian G2P Benchmark](https://huggingface.co/datasets/MahtaFetrat/SentenceBench)
