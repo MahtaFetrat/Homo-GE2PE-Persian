@@ -45,7 +45,7 @@ Here’s a merged version that combines your existing intro with the condensed u
 ## Usage  
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1Osue8HOgTGMZXIhpvCuiRyfuxpte1v0p?usp=sharing)  
 
-For inference, run the provided [`inference.ipynb`](inference.ipynb) notebook either locally or via the [Colab link](https://colab.research.google.com/drive/1Osue8HOgTGMZXIhpvCuiRyfuxpte1v0p?usp=sharing) (recommended for easy setup).
+For inference, run the provided [`inference.ipynb`](https://github.com/MahtaFetrat/Homo-GE2PE-Persian/blob/main/Inference.ipynb) notebook either locally or via the [Colab link](https://colab.research.google.com/drive/1Osue8HOgTGMZXIhpvCuiRyfuxpte1v0p?usp=sharing) (recommended for easy setup).
 
 ### Quick Setup  
 1. **Install dependencies**:  
