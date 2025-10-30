@@ -1,0 +1,4 @@
+unidecode==1.4.0
+evaluate==0.4.6
+transformers==4.49.0
+jiwer==4.0.0
